@@ -4,234 +4,82 @@
     font-family: sans-serif;  
 
 }
-.mainsec{
-    height: 100vh;
-    width: 100%;
-    position: relative;
+.section2{
     display: flex;
-    justify-content: space-between;
-    background-image: url(../images//pexels-markus-spiske-110644.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-}
-.topnav{
-    height: 15vh;
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid #d0ab37;
-}
-
-.text{
-    position: absolute;
-    top: 23%;
-    left: 5%;
-    
-}
-.text h1{
-    font-size: 60px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;    
-}
-.text p{
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-.more{
-    background-color:transparent;
-    border-style: grey 1px solid;      
-    border-radius: 10px; 
-    width: 200px;
-    height: 40px;
-    color: black;
-}
-.more:hover{
-    transform: scale(1.2);
-    transition: .4s;
-    background-color: transparent;
-    color: black;
+    background-color: black;
 }
 .social{
-   display: flex;
+    width: 5%;
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    margin-top: 200px;
 }
-.social ul li{
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    margin: 50px 20px;
+.social a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+    
 }
-.social ul li i{
-    color:black;
+.content{
+    width: 90%;
+    
+    background-color: black;
+}
+.rightsec{
+    width: 5%;
+    height: 100vh;
+}
+.rightsec h6{
+    color: white;
+    rotate: 90deg;
+    margin-top: 250px;
+    letter-spacing: 10px;
+    font-size: 13px;
+}
+.about{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.about h5{
     font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
 }
-.social ul li i:hover{
-    transform: scale(1.2);
-    color: #d0ab37;
-    transition: 0.4s;
-}
-.btn1{
-    background-color:transparent;
-    border-style: grey 1px solid;
-    border-radius: 10px; 
-    width: 100px;
-    height: 40px;
-    color: #595959;
- 
-}
-.btn1:hover{
-    transform: scale(1.2);
-    transition: 0.4s;
-    background-color: transparent;
-    color: #d0ab37;
-}
-.scrleft{
-    margin-left: 250px;
-}
-.scrleft ul li{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    margin: 50px;
-}
-.scrleft ul li a{   
-    color: #595959;
-    text-decoration: none;
-}
-.scrleft ul li a:hover{
-    color: #d0ab37;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.footer{
-    position: absolute;
-    top: 94%;
-    left: 0%;
-}
-.footer h1{
-    font-size: 10px;
-    color: black;
-    margin-left: 650px;
-}
-.aboutsec{
-    border-top: 1px #d0ab37 solid;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-.About{
-    position: absolute;
-    top: 25%;
-    left: 10%;
-}
-.About h1{
-    color: #d0ab37;
+.about h1{
     font-size: 60px;
-    letter-spacing: 1px;
+    font-weight: 800;
+    margin-bottom: 20px; 
+    color: white;
 }
-.About p{
-    color:black;
+.about h2{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px; 
+    color: white;
+}
+.about h5{
+    font-size: 20px;
     width: 40%;
+    color: white;
 }
-.logo{
-    position: absolute;
-    left: 50%;
+.experience{
+    margin-top: 250px;
+
 }
-.logo img{
-    height: 700px;
-    width: 800px;
-}
-.Wid{
-    position: absolute;
-    top: 80%;
-    left: 45%;
-}
-.Wid a{
-    text-decoration: none;
-    color: #d0ab37;
-    background-color: transparent;
-    border: 1px solid #d0ab37;
-    padding: 30px 50px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px   #595959;
-}
-.Wid:hover{
-    transform: scale(1.2);
-    transition: 0.4s;
-    background-color: transparent;
-    color: #d0ab37;
-}
-.services{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-.servtxt{
-    position: absolute;
-    top: 30%;
-    left: 38%;
-    align-items: center;
-}
-.servtxt h1{
-    
-    color: #d0ab37;
-    font-size: 60px;
-    letter-spacing: 1px;
-}
-.servtxt p{
-    color:black;
-    width: 70%;
-    margin-left: -100px;
-}
-.cards1{
-    position: absolute;
-    top: 60%;
-    display: flex;
-    justify-content: space-between;
-    
-  
-}
-.card{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 100px;
-    box-shadow: 5px 5px 5px  #595959;           
-}
-.card:hover{
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-.card h5{
+.experience h3{
     text-align: center;
-    color: #d0ab37;
-    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+
 }
 
-.card img{
-    height: 80px;
-    width: 100px;
-    margin-left: 85px;
-    margin-top: 20px;
-}
-.cards2{
-    position: absolute;
-    top: 120%;
-    display: flex;
-    justify-content: space-between;
-}
-.learn{
-  border: 1px #d0ab37 solid;
-  background-color: transparent;
-  color: #d0ab37;  
-  border-radius: 0%; 
-}
-.learn:hover{
-    transform: scale(1.2);
-    background-color: transparent;
-    color: #d0ab37;
-    border:none;
-    box-shadow: 5px 5px 5px  #595959;
-}
+
+
 
 
 
