@@ -7,40 +7,54 @@
 .section2{
     display: flex;
     background-color: black;
+    position: relative;   
+}
+.navbar-brand{
+    padding-left: 20px;
+    margin-right: 600px;
 }
 .social{
     width: 5%;
     height: 100vh;
-    background-color:black;
-    position: relative;
-    margin-top: 200px;
+    background-color:transparent;
+    margin-top: 200px; 
+    position: fixed;
+    background-color: transparent;  
 }
 .social a{
     font-size: 20px;
     color: white;
     display: block;
-    padding: 20px;
-    
+    padding: 20px;       
+}
+.social a:hover{
+    scale: 1.4;
+
 }
 .content{
     width: 90%;
-    
+    height: 100%;
     background-color: black;
+    padding-left: 100px;
 }
 .rightsec{
     width: 5%;
     height: 100vh;
+    position: fixed;
+    right: 10px;
+    background-color: transparent; 
+   
 }
 .rightsec h6{
     color: white;
     rotate: 90deg;
     margin-top: 250px;
     letter-spacing: 10px;
-    font-size: 13px;
+    font-size: 13px;    
 }
 .about{
     text-align: left;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-top: 100px;
 }
 .about h5{
@@ -67,16 +81,97 @@
     color: white;
 }
 .experience{
-    margin-top: 250px;
+    margin-top: 350px;
+    align-items: center;
 
 }
 .experience h3{
     text-align: center;
     color: white;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+}
+.accordion-body{
+    background-color: white;
+}
+.projects{
+    margin-top: 350px;
+}
+.projects h1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.contact{
+    margin-top: 300px;
+}
+.contact{
+    text-align: center;
+}
+.contact h1{
+    color: white;
+}
+.contact h5{
+    color: white;
+    text-align: center;
 
 }
+.footer{
+    margin-top: 300px;
+    align-items: center;
+}
+.footer h6{
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width: 900px){
+    .about{
+        padding-left: 0px;
+        align-items: center;
+    }
+    .about h5{
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: white;
+        width: 100%;
+       
+    }
+    .about h1{
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: 20px; 
+        color: white;
+        padding-left: -20px;
+    }
+    .about h2{
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 20px; 
+        color: white;
+    }
+    .contact{
+        padding-left: 0px;
+        align-items: center;
+    }
+    .contact h1{
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: 20px; 
+        color: white;
+        
+
+    }
+    .contact h5{
+        font-size: 10px;
+        margin-bottom: 20px;
+        color: white;
+    }
+   
+        
+    }
+
 
 
 
