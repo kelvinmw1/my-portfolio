@@ -11,7 +11,8 @@
 }
 .navbar-brand{
     padding-left: 20px;
-    margin-right: 600px;
+    padding-top: 20px;
+    margin-right: 700px;
 }
 .social{
     width: 5%;
@@ -81,7 +82,7 @@
     color: white;
 }
 .experience{
-    margin-top: 350px;
+    margin-top: 450px;
     align-items: center;
 
 }
@@ -98,6 +99,7 @@
     margin-top: 350px;
 }
 .projects h1{
+    margin-top: 100px;
     text-align: center;
     color: white;
     font-weight: 400;
