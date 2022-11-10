@@ -30,7 +30,6 @@
 }
 .social a:hover{
     scale: 1.4;
-
 }
 .content{
     width: 90%;
@@ -50,7 +49,7 @@
     color: white;
     rotate: 90deg;
     margin-top: 250px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-size: 13px;    
 }
 .about{
@@ -81,6 +80,9 @@
     width: 40%;
     color: white;
 }
+.btn{
+    color: grey;
+}
 .experience{
     margin-top: 450px;
     align-items: center;
@@ -104,9 +106,6 @@
     color: white;
     font-weight: 400;
     margin-bottom: 70px;
-}
-.contact{
-    
 }
 .contact{
    margin-top: 250px;
