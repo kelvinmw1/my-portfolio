@@ -79,12 +79,13 @@
     font-size: 20px;
     width: 40%;
     color: white;
+    margin-bottom: 100px;
 }
 .btn{
     color: grey;
 }
 .experience{
-    margin-top: 450px;
+    margin-top: 200px;
     align-items: center;
 
 }
@@ -110,6 +111,20 @@
 .contact{
    margin-top: 250px;
    text-align: center;
+}
+.contacts{
+    display: flex;
+    padding: 100px;
+}
+.contactleft{
+    width: 50%;
+    
+}
+.contactright{
+    width: 50%;
+}
+.contacts h1{
+    font-size: 15px;
 }
 .contact h1{
     color: white;
@@ -213,6 +228,13 @@
         text-align: left;
         color: white;
         font-size: 6px;
+    }
+    .rightsec h6{
+        color: white;
+        rotate: 90deg;
+        margin-top: 250px;
+        letter-spacing: 1px;
+        font-size: 13px;    
     }
    
         
